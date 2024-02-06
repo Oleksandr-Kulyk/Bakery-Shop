@@ -1,0 +1,11 @@
+.main-section {
+    background: linear-gradient(126.97deg, rgba(18, 18, 17, 0.78) 2.45%,
+    rgba(18, 18, 17, 0.6) 59.159%,
+    rgba(18, 18, 17, 0) 91.215%), 
+    url('../img/header-bg.png') center top / cover no-repeat;
+    padding: 27.2rem 0;
+    &__title {
+        text-align: center;
+    }
+
+}

@@ -5,5 +5,13 @@
 
 @import 'base/_animations.scss';
 @import 'base/_base.scss';
+@import 'base/_fonts.scss';
 @import 'base/_typography.scss';
 @import 'base/_utilities.scss';
+
+@import 'components/_nav.scss';
+@import 'components/_button.scss';
+
+@import 'layout/header.scss';
+@import 'layout/_main-section.scss'
+

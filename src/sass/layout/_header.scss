@@ -1,0 +1,10 @@
+.header {
+    background: transparent;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    &__container {
+        padding: 3rem 9rem 0 10rem;
+    }
+}
