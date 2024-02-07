@@ -1,0 +1,23 @@
+.chefs-section {
+    &__title-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 54rem 1fr;
+        align-items: end;
+        &::after, &::before {
+            content: "";
+            border: 0.2rem solid $color-gray;
+            display: block;
+            height: 0;
+            margin-bottom: 2.4rem;
+        }
+    }
+    &__title {
+        text-align: center;
+    }
+
+    &__chefs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3rem;
+    }
+}

@@ -1,0 +1,36 @@
+.chef-card {
+    display: grid;
+    grid-template-columns: 24rem minmax(min-content, 33rem);
+    column-gap: 3rem;
+    align-items: center;
+    &__photo {
+        position: relative;
+        width: 24rem;
+        height: 39rem;
+        z-index: 3;
+        &::before {
+            content: "";
+            display: block;
+            width: 24rem;
+            height: 39rem;
+            border: 0.1rem solid $color-brown;
+            border-radius: 0.4rem 0.4rem 0.4rem 20rem;
+            position: absolute;
+            left: -1.6rem;
+            bottom: -0.7rem;
+            z-index: -1;
+        }
+    }
+    &__img {
+        border-radius: 0.4rem 0.4rem 0.4rem 20rem;
+    }
+    &__text-content {
+        display: grid;
+        grid-template-rows: repeat(3, min-content);
+        row-gap: 3rem;
+        max-width: 33rem;
+    }
+    &__text {
+        font-weight: 400;
+    }
+}
