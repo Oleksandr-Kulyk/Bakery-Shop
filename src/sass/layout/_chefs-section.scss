@@ -1,5 +1,7 @@
 .chefs-section {
+    background-color: $color-light;
     &__title-wrapper {
+        margin-bottom: 8rem;
         display: grid;
         grid-template-columns: 1fr 54rem 1fr;
         align-items: end;
@@ -17,7 +19,7 @@
 
     &__chefs {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
         column-gap: 3rem;
     }
 }
