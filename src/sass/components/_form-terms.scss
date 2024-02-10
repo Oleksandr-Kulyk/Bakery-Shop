@@ -1,0 +1,12 @@
+.form-terms {
+    max-width: 24rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: $color-black;
+    &__link, &__link:link, &__link:active, &__link:hover {
+        text-decoration: underline;
+        color: $color-black;
+    }
+}

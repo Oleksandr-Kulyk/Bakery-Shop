@@ -1,0 +1,26 @@
+.form {
+    &__input {
+        border: 1px solid $color-brown;
+        border-radius: 8px;
+        width: 100%;
+        padding: 1.6rem 4.2rem;
+        margin-bottom: 2.4rem;
+        background-color: transparent;
+        &::placeholder {
+            font-size: 18px;
+            font-weight: 400;
+            color: $color-brown;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+    &__button {
+        margin: 0 auto;
+        margin-bottom: 2.4rem;
+        transition: all 0.3s;
+        &:hover {
+            color: $color-green-dark;
+        }
+    }
+}
