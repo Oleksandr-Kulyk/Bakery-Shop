@@ -1,0 +1,70 @@
+.footer {
+    background-color: $color-black;
+    background-image: url('../img/Floor.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3.2rem 0; 
+
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    &__nav-item {
+        &:not(:last-child) {
+            margin-bottom: 1.6rem;
+        }
+    }
+
+    &__nav-link:link,
+    &__nav-link:active,
+    &__nav-link:visited,
+    &__nav-link:hover  {
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: $color-light;
+    }
+
+    &__adress {
+        max-width: 21rem;
+    }
+    &__adress-item {
+        &:not(:last-child) {
+            margin-bottom: 1.6rem;
+        }
+    }
+
+    &__adress-list {
+        margin-bottom: 1.6rem;
+    }
+
+    &__adress-link {
+        font-size: 16px;
+        font-weight: 300;
+        color: $color-light;
+        font-style: normal;
+        &:not(:last-child) {
+            margin-bottom: 1.6rem;
+        }
+    }
+    &__socials-item {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+    &__privacy-link:link,
+    &__privacy-link:active,
+    &__privacy-link:visited,
+    &__privacy-link:hover {
+        display: block;
+        font-size: 16px;
+        font-weight: 300;
+        color: $color-light;
+        margin-bottom: 1.6rem;
+    }
+    &__copyright {
+        font-size: 14px;
+        font-weight: 400;
+        color: $color-brown;
+    }
+}
