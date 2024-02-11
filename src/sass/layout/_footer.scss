@@ -5,6 +5,7 @@
     background-position: center;
     background-repeat: no-repeat;
     padding: 3.2rem 0; 
+    position: relative;
 
     &__container {
         display: grid;
@@ -66,5 +67,25 @@
         font-size: 14px;
         font-weight: 400;
         color: $color-brown;
+    }
+    &::after {
+        content: '';
+        display: block;
+        width: 18rem;
+        height: 12rem;
+        background: url(../img/bread-1.png) center / cover no-repeat;
+        position: absolute;
+        bottom: 0;
+        right: auto;;
+    }
+    &::before {
+        content: '';
+        display: block;
+        width: 38rem;
+        height: 19rem;
+        background: url(../img/bread-2.png) center / cover no-repeat;
+        position: absolute;
+        bottom: 0;
+        right: 0;
     }
 }
