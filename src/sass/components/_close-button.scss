@@ -1,0 +1,18 @@
+.close-btn {
+    width: 3.2rem;
+    height: 3.2rem;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    &__svg {
+        fill: transparent;
+        stroke: $color-black;
+        width: 2.4rem;
+        height: 2.4rem;
+        transition: stroke .3s;
+    }
+}

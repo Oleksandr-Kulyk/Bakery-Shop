@@ -1,0 +1,39 @@
+.mobile-menu {
+    width: 100vw;
+    max-width: 360px;
+    padding: 16px 24px;
+    height: 100vh;
+    background-color: $color-light;
+    position: fixed;
+    top: 0;
+    right: 0;
+    &__close-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    &__logo {
+        width: 72px;
+        height: 38px;
+        display: block;
+        margin-bottom: 32px;
+    }
+    &__list {
+        display: grid;
+        grid-template-rows: repeat(4, min-content);
+        row-gap: 1.6rem;
+    }
+    &__link {
+        font-size: 14px;
+        font-weight: 300;
+        color: $color-black;
+        transition: color 0.3s;
+        &:hover {
+            color: $color-green-light;
+        }
+    }
+}
+
+.mobileMenuShown {
+    transform: translateX(0);
+}
